@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Le Jeu de l'Oie</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    
+<h1>🎲 Le Jeu de l'Oie</h1>
+
+<label for="nombreJoueurs">Nombre d'équipes (2 à 10) :</label>
+<input type="number" id="nombreJoueurs" min="2" max="10" value="2">
+
+<button id="demarrer">▶️ Démarrer le jeu</button>
+
+<button id="lancerDe">🎲 Lancer le dé</button>
+<p id="resultatDe"></p>
+<p id="tour">Tour du joueur 🔴</p>
+<div id="joueurs"></div>
+
+    <div id="plateau"></div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
